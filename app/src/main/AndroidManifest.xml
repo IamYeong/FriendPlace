@@ -28,6 +28,11 @@
 
         </activity>
         <activity android:name=".MainActivity"/>
+
+        <meta-data
+            android:name="com.kakao.sdk.AppKey"
+            android:value="{NATIVE_APP_KEY}" />
+
     </application>
 
 </manifest>
